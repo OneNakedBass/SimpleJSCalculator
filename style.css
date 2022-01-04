@@ -1,0 +1,111 @@
+body {
+    background-image: url(https://images.wallpapersden.com/image/download/landscape-pixel-art_bGhnaGeUmZqaraWkpJRmaWllrW5lZQ.jpg);
+    background-size: cover;
+    display: flex;
+    direction: ltr;
+    justify-content: center;
+    margin: 50px;
+    margin-top: 200px;
+}
+
+.calculator-border {
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 20px;
+    position: center;
+    background-color: rgb(70, 69, 69);
+}
+
+.calculator-screen-border {
+    background-color: rgb(105, 194, 105);
+    margin: 20px;
+    height: 60px;
+    border: 1px solid black ;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.calculator-screen {
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: end;
+    margin: 5px;
+    height: 5px;
+    font-size: 38px;
+    font-variation-settings: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.buttons > button{
+    font-size: 27px;
+    padding: 15px;
+    width: 100px;
+    margin: 5px;
+    color: whitesmoke;
+    background-color: rgb(150, 150, 150);
+}
+
+.buttons > button:hover {
+    background-color: rgb(94, 94, 94);
+}
+
+#clear-screen {
+    width: 163px;
+    background-color: rgb(185, 90, 90);
+}
+
+#clear-screen:hover {
+    background-color: rgb(116, 56, 56);
+}
+
+#erase {
+    width: 150px;
+}
+
+#zero {
+    width: 214px;   
+}
+
+#equals {
+    width: 214px;
+    background-color: rgb(36, 32, 32);
+}
+
+#equals:hover {
+    background-color: rgb(61, 59, 59);
+}
+
+#addition {
+    background-color: rgb(36, 32, 32);
+}
+
+#addition:hover {
+    background-color: rgb(61, 59, 59);
+}
+
+#substraction {
+    background-color: rgb(36, 32, 32);
+}
+
+#substraction:hover {
+    background-color: rgb(61, 59, 59);
+}
+
+#division {
+    background-color: rgb(36, 32, 32);
+}
+
+#division:hover {
+    background-color: rgb(61, 59, 59);
+}
+
+#multiplication {
+    background-color: rgb(36, 32, 32);
+}
+
+#multiplication:hover {
+    background-color: rgb(61, 59, 59);
+}
